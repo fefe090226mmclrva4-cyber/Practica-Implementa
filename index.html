@@ -3,32 +3,67 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Práctica de Video y Audio</title>
+    <title>Tabla de Horarios</title>
 
-    <!-- Enlace al archivo CSS externo -->
+    <!-- Enlace al archivo CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!-- Título principal -->
-    <h1>Multimedia en HTML</h1>
+    <main>
+        <!-- Título principal -->
+        <h1>Mi horario semanal</h1>
 
-    <!-- Sección para el video -->
-    <section class="bloque">
-        <h2>Video de ejemplo</h2>
+        <!-- Tabla de horarios -->
+        <table>
 
-        <!-- Video con controles -->
-        <video src="videos/ejemplo.mp4" controls width="400"></video>
-    </section>
+            <!-- Encabezado de la tabla -->
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
 
-    <!-- Sección para el audio -->
-    <section class="bloque">
-        <h2>Audio de ejemplo</h2>
+            <!-- Contenido de la tabla -->
+            <tbody>
 
-        <!-- Audio con controles -->
-        <audio src="audios/ejemplo.mp3" controls></audio>
-    </section>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Revisión de proyectos</td>
+                    <td>10:00 - 12:00</td>
+                </tr>
+
+                <tr>
+                    <td>Martes</td>
+                    <td>Diseño de materiales</td>
+                    <td>14:00 - 16:00</td>
+                </tr>
+
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Mentoría académica</td>
+                    <td>09:00 - 11:00</td>
+                </tr>
+
+                <tr>
+                    <td>Jueves</td>
+                    <td>Soporte técnico</td>
+                    <td>13:00 - 15:00</td>
+                </tr>
+
+                <tr>
+                    <td>Viernes</td>
+                    <td>Evaluación de procesos</td>
+                    <td>11:00 - 13:00</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </main>
 
 </body>
 
