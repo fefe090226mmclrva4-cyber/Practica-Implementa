@@ -1,49 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>Encabezado Fijo</title>
+    <title>Práctica de Video y Audio</title>
 
     <!-- Enlace al archivo CSS externo -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Encabezado principal que permanecerá fijo -->
-    <header>
-        <nav>
 
-            <!-- Título del sitio -->
-            <h1>Mi Sitio Web</h1>
+    <!-- Título principal -->
+    <h1>Multimedia en HTML</h1>
 
-            <!-- Menú de navegación -->
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+    <!-- Sección para el video -->
+    <section class="bloque">
+        <h2>Video de ejemplo</h2>
 
-        </nav>
-    </header>
-    <!-- Contenido principal -->
-    <main>
-        <section>
+        <!-- Video con controles -->
+        <video src="videos/ejemplo.mp4" controls width="400"></video>
+    </section>
 
-            <h2>Contenido Principal</h2>
-            <p>
-                Hola somos el equipo 4
-            </p>
-            <p>
-                Desplázate hacia abajo para comprobar que el encabezado
-                permanece fijo en la parte superior.
-            </p>
-            <!-- Espacio para generar desplazamiento -->
-            <p style="margin-top: 1000px;">
-                Fin del contenido.
-            </p>
+    <!-- Sección para el audio -->
+    <section class="bloque">
+        <h2>Audio de ejemplo</h2>
 
-        </section>
-    </main>
+        <!-- Audio con controles -->
+        <audio src="audios/ejemplo.mp3" controls></audio>
+    </section>
 
 </body>
+
 </html>
